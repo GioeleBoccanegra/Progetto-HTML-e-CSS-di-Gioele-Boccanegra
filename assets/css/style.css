@@ -134,18 +134,3 @@ header .logo{
 
 
 }
-
-.chiaro{
-  float: left;
-}
-
-
-.header .chiaro:checked ~ .header{
-  background-color: rgb(255, 255, 255)!important;
-}
-
-.header .chiaro:checked ~ .body{
-  background-color: rgb(255, 255, 255)!important;
-}
-
-
