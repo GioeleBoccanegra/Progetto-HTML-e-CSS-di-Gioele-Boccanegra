@@ -12,6 +12,12 @@ body{
   z-index: 100;
 }
 
+header img{
+  height: 50px;
+  object-fit: cover;
+  padding: 3px;
+}
+
 .header ul{
   margin: 0;
   padding: 0;
@@ -32,8 +38,6 @@ body{
 
 .header .logo{
   float: left;
-  font-size: 25px;
-  padding: 10px 20px;
 }
 
 .header .menu{
