@@ -12,10 +12,15 @@ body{
   z-index: 100;
 }
 
+
 header img{
-  height: 50px;
+  height: 45px;
   object-fit: cover;
-  padding: 3px;
+  padding: 5px;
+}
+
+.vuoto-header{
+  display: none;
 }
 
 .header ul{
@@ -109,6 +114,23 @@ header img{
 
 
 @media (min-width: 560px) {
+
+  header{
+    display: flex;
+    align-items: center;
+  }
+
+  .header .logo{
+    height: 55px;
+  }
+
+  .vuoto-header{
+    display: inline-block;
+    visibility: hidden;
+    flex: 1;
+  }
+
+
   .header li{
     float: left;
   }
@@ -126,6 +148,7 @@ header img{
   .header .menu-icon{
     display: none;
   }
+
 
 
 }
