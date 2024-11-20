@@ -10,6 +10,18 @@ body {
   margin-top: 80px;
 }
 
+.contact-button-body:focus {
+  outline: none;
+}
+
+.card {
+  background-color: #212121;
+}
+
+.card-body {
+  color: white;
+}
+
 
 .contact-button-body {
   background-color: #000;
@@ -39,16 +51,4 @@ body {
   100% {
     transform: scale(1);
   }
-}
-
-.contact-button-body:focus {
-  outline: none;
-}
-
-.card {
-  background-color: #212121;
-}
-
-.card-body {
-  color: white;
 }
