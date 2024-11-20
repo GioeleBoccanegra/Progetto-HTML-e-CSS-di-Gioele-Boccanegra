@@ -1,16 +1,10 @@
 body {
   margin: 0;
   font-family: montserrat, Arial, Helvetica, sans-serif;
-  height: 3000px;
   padding-top: 59px;
+  padding-bottom: 190px;
 }
 
-@media (min-width: 560px) {
-  body {
-    margin: 0 60px;
-  }
-
-}
 
 
 header img {
@@ -185,7 +179,7 @@ header a {
   color: #fff;
   font-size: 16px;
   text-align: center;
-  margin-top: 0px;
+  margin-top: 10px;
   font-family: montserrat, Arial, Helvetica, sans-serif;
 }
 
@@ -208,6 +202,11 @@ header a {
   .header .menu-icon {
     display: none;
   }
+
+  body {
+    margin: 0 60px;
+  }
+
 
 
 }
