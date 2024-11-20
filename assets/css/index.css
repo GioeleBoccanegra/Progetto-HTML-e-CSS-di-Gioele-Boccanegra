@@ -72,12 +72,13 @@
 .skills-title {
   text-align: center;
   color: #212121;
+  font-size: 3rem;
 }
 
 .skills-description {
   text-align: center;
-  font-size: 18px;
-  color: #777;
+  font-size: 1.5rem;
+  color: #212121;
 }
 
 .skills-row {
@@ -92,6 +93,7 @@
 
 .skills-subtitle {
   color: #212121;
+  font-size: 1.7rem;
 }
 
 .logo-skills-container {
@@ -106,8 +108,8 @@
 }
 
 .skills-text {
-  font-size: 16px;
-  color: #555;
+  font-size: 1.2rem;
+  color: #212121;
 }
 
 @media (max-width: 767px) {
@@ -116,6 +118,127 @@
     align-items: center;
   }
 }
+
+/*progetti recenti*/
+.projects-section {
+  padding: 50px 0;
+  background-color: #f4f4f4;
+}
+
+.projects-title {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #212121;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.projects-description {
+  text-align: center;
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.project-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.project-title {
+  font-size: 1.5em;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.project-text {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #212121;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.project-link:hover {
+  color: #007bff;
+}
+
+@media (max-width: 767px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    padding: 15px;
+  }
+
+  .projects-title {
+    font-size: 2em;
+  }
+}
+
+
+
+
+/* about me*/
+
+.about-me-section {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.about-me-title {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #212121;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.about-me-text {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+}
+
+@media (max-width: 767px) {
+  .about-me-text {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+}
+
 
 
 /* Responsive */
