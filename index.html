@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>GioeleBoccanegra</title>
 </head>
+
 <body>
 
   <header class="header">
-    <a href="/" class="logo"><img src="../assets/img/GB.png"></a>
+    <a href="/" class="logo"><img src="../assets/img/GB.png" alt="Gioele_Boccengra"></a>
+    <!-- Tecnicamente src di img è sbagliato ma funziona comunque così posso avere lo stesso identico codice in header e footer anche nelle altre pagine -->
     <input class="menu-btn" id="menu-btn" type="checkbox">
     <label for="menu-btn" class="menu-icon">
       <span class="nav-icon"></span>
     </label>
-    
+
     <ul class="menu">
       <li> <a href="/cv">CV</a></li>
       <li> <a href="/contatti">Contatti</a></li>
     </ul>
-  </header> 
+  </header>
 
-  
+
+
+
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Sezione sinistra -->
+      <div class="footer-left">
+        <button class="contact-button">Contattami</button>
+      </div>
+      <!-- Sezione destra -->
+      <div class="footer-right">
+        <a href="https://www.instagram.com/gioele__boccanegra/" class="social-icon"><img
+            src="../assets/img/logo_instagram.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/gioele.boccanegra" class="social-icon"><img
+            src="../assets/img/logo_facebook.png" alt="Facebook"></a>
+        <a href="https://github.com/GioeleBoccanegra" class="social-icon"><img src="../assets/img/logo_github.png"
+            alt="Github"></a>
+      </div>
+    </div>
+  </footer>
+
+
 </body>
+
 </html>
