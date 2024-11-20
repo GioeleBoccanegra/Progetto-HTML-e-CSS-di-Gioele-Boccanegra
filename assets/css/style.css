@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: montserrat, Arial, Helvetica, sans-serif;
   height: 3000px;
-  padding-top: 60px;
+  padding-top: 59px;
 }
 
 
@@ -126,7 +126,7 @@ header a {
 
 /* footer */
 .footer {
-  background-color: #000;
+  background-color: #212121;
   color: #fff;
   padding: 20px 0;
   font-family: Arial, sans-serif;
@@ -178,6 +178,7 @@ header a {
   color: #fff;
   font-size: 16px;
   text-align: center;
+  margin-top: 0px;
   font-family: montserrat, Arial, Helvetica, sans-serif;
 }
 
