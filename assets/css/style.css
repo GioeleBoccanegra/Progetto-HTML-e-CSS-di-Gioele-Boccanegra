@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: montserrat, Arial, Helvetica, sans-serif;
   height: 3000px;
 }
 
@@ -176,11 +176,10 @@ header a {
   margin-top: 20px;
   text-align: center;
   margin-top: 30px;
+  font-family: montserrat, Arial, Helvetica, sans-serif;
 }
 
 /* Responsive */
-
-
 @media (min-width: 560px) {
   .header li {
     float: left;
