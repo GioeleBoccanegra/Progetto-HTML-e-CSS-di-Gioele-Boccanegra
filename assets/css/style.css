@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: montserrat, Arial, Helvetica, sans-serif;
   height: 3000px;
+  padding-top: 60px;
 }
 
 
@@ -24,6 +25,9 @@ header a {
   position: fixed;
   width: 100%;
   z-index: 100;
+  top: 0px;
+  left: 0px;
+  right: 0px;
 }
 
 .header ul {
@@ -173,9 +177,7 @@ header a {
   text-align: center;
   color: #fff;
   font-size: 16px;
-  margin-top: 20px;
   text-align: center;
-  margin-top: 30px;
   font-family: montserrat, Arial, Helvetica, sans-serif;
 }
 
