@@ -75,11 +75,6 @@
   font-size: 3rem;
 }
 
-.skills-description {
-  text-align: center;
-  font-size: 1.5rem;
-  color: #212121;
-}
 
 .skills-row {
   display: flex;
@@ -135,12 +130,6 @@
   margin-bottom: 20px;
 }
 
-.projects-description {
-  text-align: center;
-  font-size: 18px;
-  color: #777;
-  margin-bottom: 40px;
-}
 
 .projects-grid {
   display: grid;
