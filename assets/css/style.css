@@ -3,7 +3,6 @@ body {
   font-family: montserrat, Arial, Helvetica, sans-serif;
   padding-top: 59px;
   padding-bottom: 190px;
-  height: 3000px;
 }
 
 
@@ -131,11 +130,6 @@ header a {
   background-color: #212121;
   color: #fff;
   padding: 20px 0;
-  font-family: Arial, sans-serif;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
 }
 
 .footer-container {
@@ -206,6 +200,10 @@ header a {
 
   body {
     margin: 0 60px;
+  }
+
+  .footer {
+    margin: 0 -60px;
   }
 
 
