@@ -1,3 +1,8 @@
-.box {
-  width: 300px;
+.contact-box {
+  border: solid 1px black;
+  min-height: 90vh;
+}
+
+@media (min-width: 560px) {
+  .contact-box {}
 }
