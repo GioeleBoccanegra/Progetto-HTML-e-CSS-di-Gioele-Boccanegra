@@ -1,6 +1,12 @@
 .contact-box {
-  border: solid 1px black;
-  min-height: 90vh;
+  margin-top: 7vh;
+  min-height: 76vh;
+}
+
+.contact-box p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 @media (min-width: 560px) {
