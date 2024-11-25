@@ -1,6 +1,6 @@
 .contact-box {
   margin-top: 7vh;
-  min-height: 76vh;
+  min-height: 80vh;
 }
 
 .contact-box p {
@@ -10,5 +10,8 @@
 }
 
 @media (min-width: 560px) {
-  .contact-box {}
+  .contact-box {
+    margin-top: 18vh;
+    min-height: 70vh;
+  }
 }
