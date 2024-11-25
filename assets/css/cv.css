@@ -1,0 +1,91 @@
+.cv h1 {
+  text-align: center;
+}
+
+.dati-cv {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+
+.dati-cv-sx {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.nome-sezione-cv {
+  text-transform: uppercase;
+  font-size: 2rem;
+  position: relative;
+  display: inline-block;
+  line-height: 10px;
+  margin-bottom: 40px;
+}
+
+.nome-sezione-cv::after {
+  content: "";
+  /* Crea un elemento virtuale */
+  position: absolute;
+  left: 0;
+  /* Inizia da sinistra */
+  bottom: -25px;
+  /* Distanza dal testo (10px in questo caso) */
+  width: 100%;
+  /* Lunghezza della sottolineatura */
+  height: 2px;
+  /* Spessore della sottolineatura */
+  background-color: black;
+  /* Colore della sottolineatura */
+}
+
+.contact-button-body:focus {
+  outline: none;
+}
+
+.contact-button-body {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+.contact-button-body:hover {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+.dati-cv-dx {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.contenuto-sezione-cv {
+  margin: 0;
+  text-align: justify;
+}
+
+.div-sezione {
+  display: flex;
+  flex-direction: column;
+}
