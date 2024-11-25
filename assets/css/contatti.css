@@ -1,6 +1,16 @@
-.contact-box {
+.big-contact-box {
   margin-top: 7vh;
   min-height: 80vh;
+}
+
+.contact-box {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  /* Ombra nera */
+  margin: 20px 0;
+  /* Distanza tra la sezione e altri elementi */
 }
 
 .contact-box p {
@@ -10,8 +20,8 @@
 }
 
 @media (min-width: 560px) {
-  .contact-box {
-    margin-top: 18vh;
-    min-height: 70vh;
+  .big-contact-box {
+    margin-top: 10vh;
+    min-height: 80vh;
   }
 }

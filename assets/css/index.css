@@ -120,7 +120,6 @@
 /*progetti recenti*/
 .projects-section {
   padding: 50px 0;
-  background-color: #ffffff;
 }
 
 .projects-title {
@@ -139,7 +138,6 @@
 }
 
 .project-card {
-  background-color: #fff;
   border: 1px solid #ddd;
   padding: 20px;
   text-align: center;
@@ -211,10 +209,8 @@
 
 /* about me*/
 
-/* Sezione About Me */
 .about-section {
   padding: 50px 20px;
-  background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -242,13 +238,11 @@
   width: 100%;
   height: auto;
   border-radius: 8px;
-  /* Rende l'immagine con angoli arrotondati */
 }
 
 .about-text {
   flex: 1;
   max-width: 45%;
-  /* Limita la larghezza del testo */
 }
 
 .container h2 {
@@ -274,7 +268,6 @@
   text-decoration: underline;
 }
 
-/* Styling per il link di Start2Impact */
 .link-start2impact {
   color: #007bff;
   text-decoration: none;
