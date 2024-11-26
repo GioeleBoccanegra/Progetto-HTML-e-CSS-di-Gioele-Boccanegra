@@ -19,7 +19,7 @@
 
 .hero-text {
   color: rgb(0, 0, 0);
-  font-size: 36px;
+  font-size: 3.6rem;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.747);
   margin-left: 3vw;
@@ -49,11 +49,12 @@
   color: rgb(0, 0, 0);
   padding: 15px 25px;
   text-align: center;
-  font-size: 25px;
+  font-size: 1.8rem;
   font-weight: bold;
   border-radius: 8px;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 0 2vh;
 }
 
 .hero-button:hover {
@@ -134,7 +135,7 @@
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #212121;
-  font-size: 2.5em;
+  font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
@@ -182,13 +183,13 @@
 }
 
 .project-title {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: #212121;
   margin-bottom: 10px;
 }
 
 .project-text {
-  font-size: 16px;
+  font-size: 1.1rem;
   color: #555;
   margin-bottom: 15px;
 }
@@ -199,7 +200,7 @@
   color: rgb(255, 255, 255);
   padding: 15px 25px;
   text-align: center;
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: bold;
   border-radius: 8px;
   cursor: pointer;
@@ -230,7 +231,7 @@
 }
 
 .container h2 {
-  font-size: 2em;
+  font-size: 2rem;
   color: #000000;
   margin-bottom: 15px;
   text-align: center;
@@ -263,7 +264,7 @@
 }
 
 .about-me-text {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   color: #000000;
   line-height: 1.6;
   margin-bottom: 15px;
@@ -298,7 +299,7 @@
   }
 
   .projects-title {
-    font-size: 2em;
+    font-size: 2rem;
   }
 
   .about-content {

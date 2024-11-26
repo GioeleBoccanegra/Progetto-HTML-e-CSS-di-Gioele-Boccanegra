@@ -13,10 +13,10 @@
   /* Distanza tra la sezione e altri elementi */
 }
 
-.contact-box p {
+.contact-box h1 {
   text-align: center;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 @media (min-width: 560px) {
