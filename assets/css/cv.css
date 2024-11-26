@@ -1,16 +1,16 @@
-.cv h1 {
-  text-align: center;
-}
-
 .cv {
   background-color: #ffffff;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  /* Ombra nera */
   margin: 50px 150px;
-  /* Distanza tra la sezione e altri elementi */
 }
+
+
+.cv h1 {
+  text-align: center;
+}
+
 
 .dati-cv {
   display: flex;
@@ -36,18 +36,12 @@
 
 .nome-sezione-cv::after {
   content: "";
-  /* Crea un elemento virtuale */
   position: absolute;
   left: 0;
-  /* Inizia da sinistra */
   bottom: -25px;
-  /* Distanza dal testo (10px in questo caso) */
   width: 100%;
-  /* Lunghezza della sottolineatura */
   height: 2px;
-  /* Spessore della sottolineatura */
   background-color: black;
-  /* Colore della sottolineatura */
 }
 
 .contact-button-body:focus {
