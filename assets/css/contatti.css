@@ -1,5 +1,5 @@
 .big-contact-box {
-  margin-top: 7vh;
+  margin-top: 5vh;
   min-height: 80vh;
 }
 
@@ -8,9 +8,8 @@
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  /* Ombra nera */
   margin: 20px 0;
-  /* Distanza tra la sezione e altri elementi */
+
 }
 
 .contact-box h1 {
@@ -21,7 +20,7 @@
 
 @media (min-width: 560px) {
   .big-contact-box {
-    margin-top: 10vh;
+    margin-top: 5vh;
     min-height: 80vh;
   }
 }

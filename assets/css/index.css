@@ -290,6 +290,7 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+
   .projects-grid {
     grid-template-columns: 1fr;
   }
@@ -302,14 +303,17 @@
     font-size: 2rem;
   }
 
+
   .about-content {
     flex-direction: column;
     text-align: center;
+    align-items: center;
   }
 
   .about-photo {
     max-width: 100%;
     margin-bottom: 20px;
+    margin-right: 0 !important;
   }
 
   .about-text {
